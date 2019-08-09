@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="1" name="Responsys Test Suite" parallel="tests">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="listener.TestListener" />
+	</listeners>
+
+	<test name="RI Push Tests" junit="false" preserve-order="true">
+		<!-- <parameter name="browser" value="chrome" /> -->
+		<classes>
+			<class name="responsys.TestRIPushApp">
+				<methods>
+					<include name="testRIApp" />					
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> 
