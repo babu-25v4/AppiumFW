@@ -19,6 +19,7 @@ public class DriverManager {
 	
 	private static DesiredCapabilities getCapsForApp(String appPackage, String appActivity){		
 		MyLogger.log.debug("Creating Capabilities: ");
+		Report.info("Setting Capabilities. ");
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Android device");
 		caps.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
@@ -26,6 +27,7 @@ public class DriverManager {
 		caps.setCapability("autoGrantPermissions", true);
 		caps.setCapability("appPackage", appPackage);
 		caps.setCapability("appActivity", appActivity);
+		Report.info("Done Setting Capabilities. ");
 		return caps;
 	}
 	
@@ -57,9 +59,9 @@ public class DriverManager {
 			Report.info("Android Driver is created for the device: " +ADB.getConnectedDevices().get(0).toString());
 //			Android.adb = new ADB(ADB.getConnectedDevices().get(0).toString());
 		}catch (MalformedURLException e) {
-			Report.fail("FAILED to create Android Driver, please check the logs for more details");							
+			Report.fail("FAILED to create Android Driver, please check the logs for more details: "+e);							
 		}catch (Exception e) {
-			Report.fail("FAILED to create Android Driver, please check the logs for more details");							
+			Report.fail("FAILED to create Android Driver, please check the logs for more details: "+e);							
 		}
 	}
 

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Info: Starting Appium Server...<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Started Appium Server on Port - 4723<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Starting emulator 'Demo1' ...<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Started Emulator: 'Demo1' successfully!<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Trying to create new Android Driver...<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Setting Capabilities. <br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Done Setting Capabilities. <br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Formating ADB command: adb devices<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Formated ADB command: C:\Users\bmunegow.ORADEV\AppData\Local\Android\sdk\platform-tools\adb devices<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Output of the ADB command: List of devices attached
+emulator-5554	device
+
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Android Driver is created for the device: emulator-5554<br>]]>
+    </line>
+    <line>
+      <![CDATA[TEST : testRIApp STARTED.]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/iap")' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: Andorid BACK button is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().text("SOCIAL")' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: Andorid BACK button is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/premium")' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: Andorid BACK button is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().text("OTHER")' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: Andorid BACK button is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().text("PUSH")' is exist<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().text("EVENTS")' is exist<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().text("EVENTS")' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: 'new UiSelector().text("SETTINGS")' is NOT exist<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: screen swiped to left<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: 'new UiSelector().text("SETTINGS")' is NOT exist<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: screen swiped to left<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: 'new UiSelector().text("SETTINGS")' is NOT exist<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: screen swiped to left<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().text("SETTINGS")' is exist<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: Push Tab 'SETTINGS' is present<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().text("SETTINGS")' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb1")' is exist<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb1")' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb2")' is exist<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb2")' is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[TEST : testRIApp PASSED.]]>
+    </line>
+    <line>
+      <![CDATA[Info: Killing Android Driver...<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Android Driver is killed successfuly<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Killing emulator...<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Emulator is killed successfully!<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Stopping Appium Server...<br>]]>
+    </line>
+    <line>
+      <![CDATA[Info: Appium Server is Stoped successfuly.<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Responsys Test Suite" duration-ms="19638" started-at="2020-03-04T05:45:15Z" finished-at="2020-03-04T05:45:34Z">
+    <groups>
+    </groups>
+    <test name="RI Push Tests" duration-ms="19638" started-at="2020-03-04T05:45:15Z" finished-at="2020-03-04T05:45:34Z">
+      <class name="responsys.TestRIPushApp">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:responsys.TestRIPushApp@3b0143d3]" name="startUp" is-config="true" duration-ms="73658" started-at="2020-03-04T11:14:01Z" finished-at="2020-03-04T11:15:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Info: Starting Appium Server...<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Started Appium Server on Port - 4723<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Starting emulator 'Demo1' ...<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Started Emulator: 'Demo1' successfully!<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Trying to create new Android Driver...<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Setting Capabilities. <br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Done Setting Capabilities. <br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Formating ADB command: adb devices<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Formated ADB command: C:\Users\bmunegow.ORADEV\AppData\Local\Android\sdk\platform-tools\adb devices<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Output of the ADB command: List of devices attached
+emulator-5554	device
+
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Android Driver is created for the device: emulator-5554<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="testRIApp()[pri:0, instance:responsys.TestRIPushApp@3b0143d3]" name="testRIApp" duration-ms="19621" started-at="2020-03-04T11:15:15Z" finished-at="2020-03-04T11:15:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST : testRIApp STARTED.]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/iap")' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: Andorid BACK button is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().text("SOCIAL")' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: Andorid BACK button is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/premium")' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: Andorid BACK button is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().text("OTHER")' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: Andorid BACK button is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().text("PUSH")' is exist<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().text("EVENTS")' is exist<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().text("EVENTS")' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: 'new UiSelector().text("SETTINGS")' is NOT exist<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: screen swiped to left<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: 'new UiSelector().text("SETTINGS")' is NOT exist<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: screen swiped to left<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: 'new UiSelector().text("SETTINGS")' is NOT exist<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: screen swiped to left<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().text("SETTINGS")' is exist<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: Push Tab 'SETTINGS' is present<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().text("SETTINGS")' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb1")' is exist<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb1")' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb2")' is exist<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb2")' is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[TEST : testRIApp PASSED.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRIApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:responsys.TestRIPushApp@3b0143d3]" name="tearDown" is-config="true" duration-ms="1465" started-at="2020-03-04T11:15:34Z" finished-at="2020-03-04T11:15:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Info: Killing Android Driver...<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Android Driver is killed successfuly<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Killing emulator...<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Emulator is killed successfully!<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Stopping Appium Server...<br>]]>
+            </line>
+            <line>
+              <![CDATA[Info: Appium Server is Stoped successfuly.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- responsys.TestRIPushApp -->
+    </test> <!-- RI Push Tests -->
+  </suite> <!-- Responsys Test Suite -->
+</testng-results>

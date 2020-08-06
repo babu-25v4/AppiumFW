@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>TestNG:  RI Push Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RI Push Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 04 11:15:15 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>19 seconds (19638 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='responsys.TestRIPushApp.testRIApp()'><b>testRIApp</b><br>Test class: responsys.TestRIPushApp<br/>
+<a href="#Output-269534720" onClick='toggleBox("Output-269534720", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-269534720" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-269534720">
+TEST : testRIApp STARTED.<br/>
+Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/iap")' is clicked<br><br/>
+Pass: Andorid BACK button is clicked<br><br/>
+Pass: 'new UiSelector().text("SOCIAL")' is clicked<br><br/>
+Pass: Andorid BACK button is clicked<br><br/>
+Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/premium")' is clicked<br><br/>
+Pass: Andorid BACK button is clicked<br><br/>
+Pass: 'new UiSelector().text("OTHER")' is clicked<br><br/>
+Pass: Andorid BACK button is clicked<br><br/>
+Pass: 'new UiSelector().text("PUSH")' is exist<br><br/>
+Pass: 'new UiSelector().text("EVENTS")' is exist<br><br/>
+Pass: 'new UiSelector().text("EVENTS")' is clicked<br><br/>
+Info: 'new UiSelector().text("SETTINGS")' is NOT exist<br><br/>
+Pass: screen swiped to left<br><br/>
+Info: 'new UiSelector().text("SETTINGS")' is NOT exist<br><br/>
+Pass: screen swiped to left<br><br/>
+Info: 'new UiSelector().text("SETTINGS")' is NOT exist<br><br/>
+Pass: screen swiped to left<br><br/>
+Pass: 'new UiSelector().text("SETTINGS")' is exist<br><br/>
+Pass: Push Tab 'SETTINGS' is present<br><br/>
+Pass: 'new UiSelector().text("SETTINGS")' is clicked<br><br/>
+Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb1")' is exist<br><br/>
+Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb1")' is clicked<br><br/>
+Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb2")' is exist<br><br/>
+Pass: 'new UiSelector().resourceId("com.pushio.testharness12:id/cb2")' is clicked<br><br/>
+TEST : testRIApp PASSED.<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>responsys.TestRIPushApp@3b0143d3</td></tr>
+</table><p>
+</body>
+</html>
